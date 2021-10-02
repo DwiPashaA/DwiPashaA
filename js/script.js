@@ -1,4 +1,4 @@
-const txtElement = ['saya dwi pasha', 'saya manusia', '', '',];
+const txtElement = ['Tetaplah Menjadi Tua Untuk Menjadi Muda', '', '', '',];
 let count = 0;
 let txtIndex = 0;
 let currentTxt = '';
@@ -23,4 +23,6 @@ let words = '';
 	setTimeout(ngetik, 500);
 
 })();
+
+
 
