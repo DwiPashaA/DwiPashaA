@@ -40,37 +40,65 @@
               </li>
               </li>
               <li class="nav-item">
-                <button type="button" class="btn btn-primary">Primary</button>
+                <a class="nav-link disabled">Disabled</a>
               </li>
             </ul>
             <form class="d-flex">
               <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-              <button class="btn btn-outline-success" type="submit">Search</button>
+              <button class="btn btn-outline-primary" type="submit">Search</button>
             </form>
           </div>
         </div>
       </nav>
     <!--end navbar-->
 
-    <!--banner-->
-    <section class="banner">
-        <div class="container">
-            <div class="banner-left">
-                <img src="img/66.jpg">
-                <h2>hai.........<br>
-                     <spam class="efek-ngetik"></spam></h2>
+    <!--jumbotron-->
+   <div class="container">
+      <div class="accordion" id="accordionExample bg-light">
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingOne">
+            <button class="accordion-button text-center" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+              <b>Pengenalan</b>
+          </h2>
+          <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              <div class="container" style="color: rgb(145, 145, 145);">
+                <div class="banner-left">
+                  <img src="img/66.jpg" style="width: 200px;
+                  border-radius: 10px;
+                  box-shadow: 0 3px 5px #ddd;
+                  margin-bottom: 10px; color: rgb(107, 105, 105);">
+                    <h2>Hai.........<br>
+                        <spam class="efek-ngetik"></spam></h2>
+                    </div>
                 </div>
-        </div>
-    </section>
+            </div>
 
-    <!-- bagian about -->
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingTwo">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                  About
+                </button>
+              </h2>
+              <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  <strong>Bumi Itu Datar.</strong> Kalo Ada Yang Bilang Bulat Itu Hoax.
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--end jumbotron-->
+
 
     <!--cards-->
     <section id="Asset">
         <h1 class="text-center" style="color: black;">My Asset</h1>
         <p class="text-center" style="color: black;">Hasil Pembelajaran</p>
 
-       <div class="d-flex justify-content-around" style="color: black;">
+       <div class="d-flex justify-content-around pl-3" style="color: black;">
         <div class="card" style="width: 18rem;">
             <img src="img/2.jpg" class="card-img-top" alt="...">
             <div class="card-body">
@@ -157,42 +185,17 @@
 
     <!--contact-us-->
        <section id="contact-us">
-         <footer class="bg-dark text-white pt-5 pb-4">
-           <div class="container text-center text-md-left">
-             <div class="row text-center text-md-left">
-               <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
-                 <h5 class="text-uppercase mb-4 font-weight-bold text-warming">Contact-us</h5>
-                    
-                 <p>
-                   <i class="fas fa home mr-3">Cirebon</i>
-                 </p>
-
-                 <p>
-                  <i class="fas fa home mr-3">Jokotahya1344@gmail.com</i>
-                </p>
-
-                <p>
-                  <i class="fas fa home mr-3">jl Jendral Soedirman No.45</i>
-                </p>
-
-                <p>
-                  <i class="fas fa home mr-3">Desa Kawah Jelang</i>
-                </p>
-                 
-                </div>
-                <div class="col-md-2 col-lg-2 col-xl-3 mx-auto mt-3">
-                  <h5 class="text-upparcase mb-4 font-weight-bold text-warming">PRODUCT</h5>
-                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam impedit temporibus esse architecto voluptas vel illo explicabo repellat. Impedit eos nisi deserunt labore nemo placeat quam quo ratione aperiam repellendus.</p>
-             </div>
-            </div>
-            </div>
-            <div class="col-md-7 col-lg-8">
-                <P>Copyright ©2021 All Rights reserved by : <strong>JokoTahya</strong></P>
-            </div>
-           </div>
+         <footer class="bg-white">
+           <h2></h2>
          </footer>
        </section>
     <!--end contact-us-->
+
+
+
+
+
+
 
 
 <script src="js/script.js"></script>
