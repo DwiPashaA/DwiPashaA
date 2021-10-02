@@ -1,4 +1,4 @@
-const txtElement = ['Tetaplah Menjadi Tua Untuk Menjadi Muda', '', '', '',];
+const txtElement = ['Saya Dwi Pasha', 'tetaplah menjadi tua untuk menjadi muda', '', '',];
 let count = 0;
 let txtIndex = 0;
 let currentTxt = '';
